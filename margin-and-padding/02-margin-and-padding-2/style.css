@@ -7,21 +7,39 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* This padding is for the white border */
+  padding: 10px;
+}
+
+.card * {
+  /* This padding is for the skyblue border */
+  padding: 10px;
 }
 
 .title {
   background: #e3f4ff;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  padding-top: 15px;
+  /* Made the top and bottom padding for the middle element
+  a bit wider than the rest */
+  padding-bottom: 15px;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin-top: 10px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  width: 130px;
+  margin: 0 auto;
 }
